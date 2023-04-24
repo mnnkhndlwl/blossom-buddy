@@ -129,15 +129,6 @@ export default function NewProduct() {
           />
         </div>
         <div className="addProductItem">
-          <label>Price</label>
-          <input
-            name="price"
-            type="number"
-            placeholder="100"
-            onChange={handleChange}
-          />
-        </div>
-        <div className="addProductItem">
           <label>Categories</label>
           <input type="text" placeholder="Indoor,Outdoor" onChange={handleCat} />
         </div>
